@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Currency_Converter"
         tools:targetApi="31">
         <activity
+            android:name=".second_page"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
